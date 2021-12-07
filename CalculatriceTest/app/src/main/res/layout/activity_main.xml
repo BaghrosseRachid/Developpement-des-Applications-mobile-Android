@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the First number"
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_on_primary"
+
+        />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        tools:ignore="SpeakableTextPresentCheck"
+
+
+        />
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Enter the Second number"
+          android:textSize="30dp"
+          android:textColor="@color/design_default_color_on_primary"
+          />
+
+      <EditText
+          android:id="@+id/t2"
+          android:layout_width="247dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:minHeight="48dp" />
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="200dp"
+      android:orientation="horizontal"
+      >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="Somme"
+        android:textSize="20dp"
+        android:onClick="calculate_somme"
+
+        >
+
+    </Button>
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:minHeight="48dp" />
+  </LinearLayout>
+
+
+
+
+</RelativeLayout>
