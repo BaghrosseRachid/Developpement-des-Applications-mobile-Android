@@ -1,0 +1,11 @@
+<resources>
+    <string name="applicationName">TD3 lancer de de</string>
+    <string name="exercice1"> Click to Show Exercice 1</string>
+    <string name="exercice2"> Click to Show Exercice 2</string>
+    <string name="exercice3"> Click to Show Exercice 3</string>
+    <string name="result">Résultat</string>
+    <string name="Run">LANCER LE DE</string>
+    <string name="result1">Dé 1</string>
+    <string name="result2">Dé 2</string>
+    <string name="face_number">Entrer le Nombre de face</string>
+</resources>
