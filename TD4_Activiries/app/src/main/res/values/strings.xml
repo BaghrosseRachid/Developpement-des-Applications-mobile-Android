@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TD4 - les activites</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="prompt_password">Mot de pass</string>
+    <string name="action_sign_in">se Connecter </string>
+    <string name="details">Details</string>
+    <string name="logout">logout</string>
+    <string name="news">Bien Authentifié </string>
+    <string name="ok">Ok</string>
+    <string name="login">Se connecter </string>
+    <string name="prompt_pseudo"> Votre transporteur nom *</string>
+    <string name="about">About</string>
+</resources>

@@ -19,12 +19,14 @@
 
         <Button
             android:id="@+id/btn_exo1"
+            android:backgroundTint="@color/teal_700"
             android:layout_width="282dp"
             android:layout_height="81dp"
             android:text="@string/exercice1" />
 
         <Button
             android:id="@+id/btn_exo2"
+            android:backgroundTint="@color/teal_700"
             android:layout_width="282dp"
             android:layout_height="77dp"
             android:text="@string/exercice2" />
@@ -32,6 +34,7 @@
         <Button
             android:id="@+id/btn_exo3"
             android:layout_width="282dp"
+            android:backgroundTint="@color/teal_700"
             android:layout_height="78dp"
             android:text="@string/exercice3" />
 
