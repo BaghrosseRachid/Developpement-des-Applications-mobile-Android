@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TD5 RecycleView</string>
+<string name="default_nom">BAGHROSSE </string>
+    <string name="default_prenom">Rachid</string>
+    <string name="img_description">Photo de profile</string>
+    <string name="list_des_contacts">Cliquer içi pour commencer</string>
+</resources>
